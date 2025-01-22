@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Exports tabs links",
+    "version": "1.2.1",
+    "description": "Captura os links de todas as abas abertas na janela atual.",
+    "permissions": [
+        "tabs",
+        "tabGroups"
+    ],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    }
+  }
+  
